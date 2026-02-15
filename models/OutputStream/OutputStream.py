@@ -1,9 +1,10 @@
-import serial, json
+import serial, json, joblib
 
 ser = serial.Serial('COM19', 9600)
 
 buffer = []
 prev = None
+model = joblib.load('model.pkl')
 
 def filter_signal(raw):
     buffer.append(raw)

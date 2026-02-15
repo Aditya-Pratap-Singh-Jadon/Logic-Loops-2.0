@@ -4,7 +4,13 @@ class CO2Verifier:
             'C': 12.011,
             'O': 15.999,
             'H': 1.008,
-            'Ca': 40.078
+            'Ca': 40.078,
+            'Mg': 24.305,
+            'Fe': 55.845,
+            'S': 32.06,
+             'N': 14.007,
+            'Cl': 35.45
+                
         }
         self.mw_co2 = self.atomic_mass['C'] + (2 * self.atomic_mass['O'])
 

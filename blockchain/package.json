@@ -1,0 +1,22 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@chainlink/contracts": "^1.4.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "hardhat": "^3.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.11",
+    "typescript": "~5.8.0"
+  }
+}
